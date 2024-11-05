@@ -40,7 +40,9 @@ Hi Matt,
 We appreciate any feedback and thank you for taking the time to reach out. As the dashboard design is new, I wanted to call your attention to the Index configuration page itself and the “Manage Index” dropdown near the top of the page, in case you were not aware of its functionality.
 
 While updating data, testing new facets or filters, or managing UI demos on your Index page, the Manage Index dropdown persists, allowing you to clear or delete from whatever tab within the Index configuration you are on. It’s definitely handy when iterating in these areas.
-
+<br><br>
+![alt text](https://github.com/josephrclick/Algolia-Assignment/blob/main/etc/ManageIndexDropdown.png)
+<br><br>
 If you are working elsewhere in the dashboard and need to manage your indices quickly, I recommend [using the Algolia CLI](https://www.algolia.com/doc/tools/cli/get-started/overview/)  (command-line interface) where you can enter simple commands [like these](https://www.algolia.com/doc/guides/sending-and-managing-data/manage-indices-and-apps/manage-indices/how-to/delete-indices/#delete-indices-with-the-api) in a separate terminal window to manage your indices on the fly.
 
 I linked a couple docs on the Algolia CLI above if you’d like to take a look and let me know what you think. I’m happy to jump on a call to walk through setting up and using the tool or to discuss possible other approaches anytime.
@@ -61,7 +63,7 @@ Leo
 
 Hello Leo,
 
-I’m happy to hear you are looking at integrating Algoila with your website! Implementing Algolia Search does require some basic HTML, CSS, and JavaScript familiarity but does not require advanced coding or any crazy hoops to jump through. From our past conversations about your role managing [LazyLeosLegos.com](https://youtu.be/8ybW48rKBME?si=zfjNJ6RjD1OxLmsz) (love the site by the way), I’m sure you have the skills and access needed to get up and running.
+I’m happy to hear you are looking at integrating Algoila with your website! Implementing Algolia Search does require some basic HTML, CSS, and JavaScript familiarity but does not require advanced coding or any crazy hoops to jump through. From our past conversations about your role managing [LazyLeosLegos.com](https://youtu.be/8ybW48rKBME?si=zfjNJ6RjD1OxLmsz) (_love the site by the way_), I’m sure you have the skills and access needed to get up and running.
 
 At a high level, you will:
 
