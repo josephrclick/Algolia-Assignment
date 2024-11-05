@@ -29,11 +29,11 @@ search.addWidgets([
           <img src=${hit.poster} alt=${hit.title} />
           <div>
             <h1>${components.Highlight({ hit, attribute: 'title' })}</h1>
-            <p>${components.Highlight({ hit, attribute: 'year' })}</p>
-            <p>${components.Highlight({ hit, attribute: 'actors' })}</p>
-            <p>${components.Highlight({ hit, attribute: 'director' })}</p>
-            <p>${components.Highlight({ hit, attribute: 'overview' })}</p>
-            <p>${components.Highlight({ hit, attribute: 'genres' })}</p>
+            <p><b>Released:</b> ${components.Highlight({ hit, attribute: 'year' })}</p>
+            <p><b>Starring:</b> ${components.Highlight({ hit, attribute: 'actors' })}</p>
+            <p><b>Directed by:</b> ${components.Highlight({ hit, attribute: 'director' })}</p>
+            <p><b>Overview:</b> ${components.Highlight({ hit, attribute: 'overview' })}</p>
+            <p><b>Genres:</b> ${components.Highlight({ hit, attribute: 'genres' })}</p>
           </div>
         </article>
       `,
@@ -58,6 +58,31 @@ search.addWidgets([
     container: '#pagination',
   }),
 ]);
+
+search.addWidgets([
+  instantsearch.widgets.clearRefinements({
+    container: '#clear-refinements',
+  }),
+
+  instantsearch.widgets.poweredBy({
+    container: '#powered-by-algolia',
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: '#genre-list', // This links the facet to the left panel
+    attribute: 'genres', // Use the facet attribute names as configured in the dashboard
+  }),
+
+  instantsearch.widgets.refinementList({
+    container: '#actor-list', // This links the facet to the left panel
+    attribute: 'actors', // Use the facet attribute names as configured in the dashboard
+  }),
+
+  instantsearch.widgets.configure({
+    hitsPerPage: 8
+  }),
+]);
+
 
 search.start();
 
