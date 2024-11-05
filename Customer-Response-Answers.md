@@ -75,7 +75,7 @@ At a high level, you will:
   - Place facets and filters and other page layout changes
   - Tweak CSS to match your site style
 
-We have an excellent document library [here](https://www.algolia.com/doc/) featuring a two-minute interactive tutorial with code examples to get your hands on now., or dive into our [quick start guide](https://www.algolia.com/doc/guides/getting-started/quick-start/).
+We have an excellent document library [here](https://www.algolia.com/doc/) featuring a two-minute interactive tutorial with code examples to get your hands on now, or dive into our [quick start guide](https://www.algolia.com/doc/guides/getting-started/quick-start/).
 
 Hope this helps!
 
