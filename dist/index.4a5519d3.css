@@ -1,0 +1,93 @@
+body {
+  padding: 1em;
+  font-family: sans-serif;
+}
+
+.ais-SearchBox {
+  margin: 1em 0;
+}
+
+.ais-Pagination {
+  margin-top: 1em;
+}
+
+.left-panel {
+  float: left;
+  width: 250px;
+  margin-top: 1em;
+}
+
+.right-panel {
+  margin-left: 260px;
+}
+
+.header {
+  color: #fff;
+  background-image: linear-gradient(90deg, #2f78ff, #7b91f7);
+  align-items: center;
+  min-height: 50px;
+  margin-bottom: 1rem;
+  padding: .5rem 1rem;
+  display: flex;
+}
+
+.header a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.header-title {
+  font-size: 1.2rem;
+  font-weight: normal;
+}
+
+.header-title:after {
+  content: " ▸ ";
+  padding: 0 .5rem;
+}
+
+.header-subtitle {
+  font-size: 1.2rem;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.search-panel {
+  display: flex;
+}
+
+.search-panel__filters {
+  flex: 1;
+}
+
+.search-panel__results {
+  flex: 3;
+}
+
+.ais-Highlight-highlighted {
+  color: inherit;
+  font-size: inherit;
+}
+
+#searchbox {
+  margin-bottom: 2rem;
+}
+
+#pagination {
+  text-align: center;
+  margin: 2rem auto;
+}
+
+.ais-Hits-item article {
+  display: flex;
+}
+
+.ais-Hits-item img {
+  max-height: 125px;
+  padding-right: 16px;
+}
+/*# sourceMappingURL=index.4a5519d3.css.map */
