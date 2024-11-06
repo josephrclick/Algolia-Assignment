@@ -6,3 +6,5 @@ I intended to create a simple front end to facilitate searching for a movie to p
 I chose to bootstrap an InstantSearch.js app as that documentation was so comprehensive. I modified the hits output to be more user friendly, including slicing the first 3 actors from the Actors object via JavaScript. I tweaked the banner color and some other CSS values, added the PoweredBy Algolia widget and facets to hopefully show I am savvy enough to work with the coding needed to implement the front end.
 
 This was a great exercise and I must commend you for your most excellent documentation and user experience working with your platform. The UI is top-notch and attention to detail is everywhere, like docs automatically populating API and App IDs where applicable throughout the documentation based on the Application I was configuring. I found no broken links or anything I'd recommend changing in your documentation. Very impressive!
+
+gh-page: [https://josephrclick.github.io/Algolia-Assignment/](https://josephrclick.github.io/Algolia-Assignment/)
